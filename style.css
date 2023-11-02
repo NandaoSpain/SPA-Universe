@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-image: url(assets/mountains-universe-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}   
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav a:hover {
+    font-weight: 700;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    color: #E1E1E6;
+}
+
+button {
+    display: inline-flex;
+    padding: 12px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    background: transparent;
+    color: #E1E1E6;
+    border-radius: 5px;
+    border: 2px solid #E1E1E6;
+    width: fit-content;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 300px;
+    gap: 40px;
+}
+
+p {
+    color: #E1E1E6;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    width: 648px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    margin-top: 200px;
+    gap: 40px;
+    padding: 102px;
+}
