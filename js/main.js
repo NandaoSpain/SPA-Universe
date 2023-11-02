@@ -1,14 +1,14 @@
-import { route } from './router.js'
+import { Router } from './router.js'
 
 
 const router = new Router()
-route.add('/' , '/pages/home.html')
-route.add('/universo' , '/pages/universo.html')
-route.add('/exploracao' , '/pages/exploracao.html')
-route.add(404 , '/pages/404.html')
+router.add('/' , '/pages/home.html')
+router.add('/universo' , '/pages/universo.html')
+router.add('/exploracao' , '/pages/exploracao.html')
+router.add(404 , '/pages/404.html')
 
 
-handle()
+router.handle()
 
-window.onpopstate = () => this.handle()
-window.route = () => this.route()
+window.onpopstate = () => router.handle()
+window.route = () => router.route()
