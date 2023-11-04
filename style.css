@@ -5,11 +5,15 @@
 }
 
 body {
-    width: 100vw;
+    
+}
+
+section {
+    height: 100vh;
     background-image: url(assets/mountains-universe-1.png);
     background-repeat: no-repeat;
-    background-position: center;
-}   
+    background-position: bottom;
+}
 
 nav {
     display: flex;
@@ -77,7 +81,6 @@ p {
     display: flex;
     flex-direction: column;
     align-items: self-start;
-    margin-top: 200px;
     gap: 40px;
     padding: 102px;
 }
